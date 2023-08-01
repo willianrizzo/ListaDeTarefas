@@ -62,7 +62,7 @@ function marcarTarefa(id) {
         icone.classList.remove("item clicado");
         icone.classList.add("checked");
 
-        item.parentNode.appendChild(item);
+    
 
     } else {
         item.classList.remove('clicado');
